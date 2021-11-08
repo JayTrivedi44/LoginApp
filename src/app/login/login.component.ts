@@ -25,11 +25,6 @@ export class LoginComponent implements OnInit {
 
   }
 
-
-  newFn() {
-    "TEST";
-  }
-
   ngOnInit() {
     document.getElementById("Uname").focus();
     this.form = this.formBuilder.group({
